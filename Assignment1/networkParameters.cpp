@@ -8,8 +8,6 @@ int main()
 
 	ifstream f;
 	f.open("test.txt");
-	freopen("networkParameters.txt", "w", stdout);
-
 	string temp = "";
 	map <string, string> DATA;
 	DATA["IP4.GATEWAY:"] = "";
